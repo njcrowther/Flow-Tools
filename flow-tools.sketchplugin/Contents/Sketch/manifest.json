@@ -1,0 +1,23 @@
+{
+  "icon": "icon.png",
+  "name": "Flow Tools",
+  "author": "Nathan Crowther",
+  "version": "1.0.0",
+  "homepage": "https://github.com/njcrowther/Flow-Tools.git",
+  "identifier": "sketch.plugin.flow-tools",
+  "compatibleVersion": "56.0",
+  "commands": [
+    {
+      "name": "Flow Tools",
+      "identifier": "flow-tools",
+      "script": "flow-tools.js"
+    }
+  ],
+  "menu": {
+    "title": "Flow Tools",
+    "isRoot": true
+  },
+  "description": "Use Flow Tools to quickly create nice looking flow posters and other documentation. Right now the only tool available is add artboard titles as text layers for export",
+  "disableCocoaScriptPreprocessor": true,
+  "appcast": "https://raw.githubusercontent.com/njcrowther/Flow-Tools/master/.appcast.xml"
+}
