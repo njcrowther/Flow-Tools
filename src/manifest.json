@@ -1,20 +1,20 @@
 {
-  "$schema": "https://raw.githubusercontent.com/BohemianCoding/SketchAPI/develop/docs/sketch-plugin-manifest-schema.json",
   "icon": "icon.png",
   "name": "Flow Tools",
   "author": "Nathan Crowther",
+  "version": "1.0.0",
   "homepage": "https://github.com/njcrowther/Flow-Tools.git",
+  "identifier": "sketch.plugin.flow-tools",
+  "compatibleVersion": "56.0",
   "commands": [
     {
       "name": "Flow Tools",
       "identifier": "flow-tools",
-      "script": "flow-tools.js"
+      "script": "/flow-tools.js"
     }
   ],
   "menu": {
-    "title": "Flow-Tools",
-    "items": [
-      "flow-tools"
-    ]
+    "title": "Flow Tools",
+    "isRoot": true
   }
 }
