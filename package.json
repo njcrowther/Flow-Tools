@@ -1,6 +1,7 @@
 {
   "name": "flow-tools",
-  "description": "",
+  "description": "Use Flow Tools to quickly create nice looking flow posters and other documentation. Right now the only tool available is add artboard titles as text layers for export",
+  "version": "0.1.0",
   "engines": {
     "sketch": ">=49.0"
   },
