@@ -37,7 +37,7 @@ export default function() {
     newText.selected = true
 
     // Vertical position of the text layer with the artboard
-    newText.frame.y = selected.frame.y - 148
+    newText.frame.y = selected.frame.y - 116
     newText.frame.x = selected.frame.x
 
   })
